@@ -301,7 +301,7 @@ cd ~/Documents/PersonalDevopsPlatform
 mkdir -p control-api/{cmd/server,internal/{config,server,middleware,domain,store/mongo,types,clients},pkg/httputil}
 
 cd control-api
-go mod init github.com/<your-username>/PersonalDevopsPlatform/control-api
+go mod init github.com/Aaron-QL/PersonalDevopsPlatform/control-api
 
 # 安装依赖
 go get github.com/gin-gonic/gin

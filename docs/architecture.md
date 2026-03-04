@@ -283,7 +283,7 @@ control-api/
 │           ├── ecr_client.go        # ECR repo 管理（推送权限 token）
 │           └── terraform_client.go  # 封装 terraform CLI 调用（exec + output 解析）
 ├── pkg/httputil/{response,errors}.go # 统一 JSON 响应格式
-├── go.mod                           # module: github.com/PerpetualSwing/PersonalDevopsPlatform/control-api
+├── go.mod                           # module: github.com/Aaron-QL/PersonalDevopsPlatform/control-api
 ├── Makefile                         # build / test / docker-build / docker-push
 └── Dockerfile                       # 多阶段构建，distroless 基础镜像
 ```

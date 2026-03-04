@@ -1,17 +1,28 @@
-这是个个人学习、实验用的项目，我想用它搭建一套完整的学习时间系统，目标是学习、实现包括Go、Lambda、Github、AWS、Harness、CI、CD、Kubernetes等技术栈，能够：
-1. 模拟完整的CI/CD流程
-2. 支持lambda函数的开发和部署
-3. 支持服务的完整生命周期管理
-4. 提供简单配置洁面，无需前端
-5. 能够验证技术方案的可行性
+# PersonalDevopsPlatform
 
-我计划这个系统包含：
-- Go语言的REST API服务
-- AWS Lambda函数管理
-- Github集成
-- Harness CI/CD流水线
-- MongoDB数据存储
-- Kubernetes部署
+A personal learning platform for studying and practicing modern DevOps technologies. The goal is to build a fully functional internal developer platform that simulates real-world CI/CD workflows.
 
+## What I'm Learning
 
-该项目还在初步设想阶段，从最简单的方案一点一点来
+- **Go** — REST API development with Gin
+- **Kubernetes** — container orchestration with OrbStack (local) and AWS ECS Fargate (cloud)
+- **Harness** — CI/CD pipelines and delegate management
+- **GitHub** — VCS integration, webhooks, and repo automation
+- **AWS** — Lambda, S3, ECR, ECS Fargate, IAM, Terraform
+- **MongoDB** — data modeling and persistence
+- **Terraform** — infrastructure as code for AWS resources
+
+## What This Platform Does
+
+- Manages the full lifecycle of microservice and Lambda projects
+- Automatically creates GitHub repos and Harness pipelines when a project is registered
+- Triggers CI on git push and CD on pipeline completion
+- Supports multiple deployment strategies: rolling, blue-green, canary, recreate
+- Manages environments and Kubernetes namespaces via client-go
+- Provides secret management with AES-256-GCM encryption
+- Includes a React web UI embedded into the Go binary
+
+## Docs
+
+- [Architecture](docs/architecture.md)
+- [Development Plan](docs/dev-plan.md)

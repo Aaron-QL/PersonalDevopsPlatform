@@ -36,7 +36,7 @@ The project is being built incrementally. Full architecture: `docs/architecture.
 
 ### Go (control-api)
 
-- Module path: `github.com/PerpetualSwing/PersonalDevopsPlatform/control-api`
+- Module path: `github.com/Aaron-QL/PersonalDevopsPlatform/control-api`
 - Router: `github.com/gin-gonic/gin`
 - Layout: `cmd/server/main.go` entry point; `internal/` for all business code; `pkg/` for shared utilities
 - Domain pattern: each domain has four files — `entity.go`, `repository.go`, `service.go`, `handler.go`
