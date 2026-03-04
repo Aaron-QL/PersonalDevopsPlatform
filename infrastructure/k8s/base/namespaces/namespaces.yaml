@@ -1,0 +1,10 @@
+# infrastructure/k8s/base/namespaces/namespaces.yaml
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: devops-platform
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: harness-delegate

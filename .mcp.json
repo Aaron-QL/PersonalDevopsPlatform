@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "mongodb": {
+      "type": "stdio",
+      "command": "/Users/aaron/Documents/PersonalDevopsPlatform/scripts/mcp-mongodb.sh"
+    }
+  }
+}
