@@ -1,0 +1,13 @@
+# IDE
+.idea/
+
+# Environment variables
+.env
+.env.*
+
+# Go
+control-api/bin/
+*.exe
+
+# macOS
+.DS_Store
